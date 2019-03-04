@@ -1,12 +1,11 @@
 AGE = None
 def get_age():
     AGE = None
-    while not type(AGE) == int or float:
+    while not type(AGE) == int:
         try:
             AGE = int(input("Введите ваш возраст(используйте числа!!!):"))
         except ValueError:
             print("ИСПОЛЬЗУЙ ТОЛЬКО ЧИСЛА")
-            print(type(AGE))
 
 
     return AGE
