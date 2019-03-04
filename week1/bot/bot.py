@@ -13,7 +13,7 @@ logging.basicConfig(format='%(name)s - %(levelname)s - %(message)s',
 
 def greet_user(bot, update):
     text = 'Вызван /start'
-    print(text)
+    print(text,update)
     update.message.reply_text(text)
 
 def talk_to_me(bot, update):
