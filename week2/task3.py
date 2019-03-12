@@ -1,6 +1,5 @@
 studentscount = int()
 students_average_grades = []
-each_student_average = {}
 school_grade_average = float()
 
 
